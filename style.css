@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(14 165 233);
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar h1 {
+    margin: 0 0 10px 0;
+}
+
+.navbar nav {
+    display: flex;
+ 
+   
+}
+.navbar nav li {
+   
+ list-style: none;
+ padding: 0 7rem;
+   
+}
