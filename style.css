@@ -10,6 +10,7 @@ body{
     margin: 0px auto;
     max-width: 85%;
     width: 100%;
+    height: 100%;
 }
 
 .navbar{
@@ -46,7 +47,7 @@ body{
 .blog-section h1 {
     margin: auto;
     width: 15vw;
-    border: 2px solid red
+    /* border: 2px solid red */
 }
 .blog-first{
     display: flex;
@@ -54,6 +55,49 @@ body{
     justify-content: center;
     align-items: center;
     margin: 6rem 0;
+  
+}
+.blog-first h2{
+    padding-bottom:1.2rem;
+}
+.blog-first small{
+    padding-bottom:1.2rem;
+}
+.blog-first p{
+width: 75%;
+padding-bottom: 1.2rem;
+  
+}
+.btn{
+    text-decoration: none;
+    background-color: rgb(88 28 135);
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    font-size: 1.2rem;
+    
+    padding: 0.5rem 2rem;
+    color: white;
+    
+    
+}
+.blog-Second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0;
+  
+}
+.blog-Second h2{
+    padding-bottom:1.2rem;
+}
+.blog-Second small{
+    padding-bottom:1.2rem;
+}
+.blog-Second p{
+width: 75%;
+padding-bottom: 1.2rem;
   
 }
 .btn{
